@@ -57,6 +57,13 @@ Thomas, D., & Hunt, A. - The Pragmatic Programmer: your journey to mastery)
 - add linter formatter for hbs
 
 - Consider Using `nest-i18n` - fro internationalization
+
+- TIP: Always try to access your entity/model attributes through getters and setters. It will make
+it easier to add functionalities in the future. You can even include a new rule saying that
+entities/models’ attributes must be accessed through their corresponding getters and setters (in
+your architectural rules document)
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
